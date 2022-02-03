@@ -8,7 +8,7 @@ export default () => {
 
   const fetchPosts = async () => {
     // just call from query to get everything
-    const res = await axios.get('http://localhost:4002/posts');
+    const res = await axios.get('http://posts.com/posts');
     setPosts(res.data);
   };
 
